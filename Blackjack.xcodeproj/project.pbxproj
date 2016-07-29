@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA85F0821D4BA9F8004D5A98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA85F0811D4BA9F8004D5A98 /* main.cpp */; };
+		DA85F08A1D4BAD02004D5A98 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA85F0881D4BAD02004D5A98 /* Card.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		DA85F07E1D4BA9F8004D5A98 /* Blackjack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blackjack; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA85F0811D4BA9F8004D5A98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DA85F0881D4BAD02004D5A98 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		DA85F08B1D4BAD29004D5A98 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		DA85F0801D4BA9F8004D5A98 /* Blackjack */ = {
 			isa = PBXGroup;
 			children = (
-				DA85F0811D4BA9F8004D5A98 /* main.cpp */,
+				DA85F0881D4BAD02004D5A98 /* Card.cpp */,
+				DA85F08B1D4BAD29004D5A98 /* Card.h */,
 			);
 			path = Blackjack;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA85F0821D4BA9F8004D5A98 /* main.cpp in Sources */,
+				DA85F08A1D4BAD02004D5A98 /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
